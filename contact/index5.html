@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">PUCIT Calculator</label>
+        <ul>
+            <li><a  href="../index.html">Home</a></li>
+            <li><a href="../gpa_cal/index2.html">GPA</a></li>
+            <li><a href="../cgpa_cal/index3.html">CGPA</a></li>
+            <li><a  href="../about/index4.html">About</a></li>
+            <li><a class="active" href="./index5.html">Contact</a></li>
+
+
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="upper">
+            Contact Us
+        </div>
+        <div class="lower">
+            <div class="pic">
+                <div class="maps">
+                    <div class="icons"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>421 New Campus,<br>Lahore,<br>Pakistan</p>
+                    </div>
+                </div>
+                <div class="maps">
+                    <div class="icons"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+92-340-12345678</p>
+                    </div>
+                </div>
+                <div class="maps" id="third">
+                    <div class="icons"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>arb-108@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                <div class="heading">
+                    <h2>Send Message</h2>
+                </div>
+                <form action="" class="form" id="form_m">
+                    <div class="inputs">
+                        <label for="">First Name</label>
+                        <input type="text" name="Name" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="">Email</label>
+                        <input type="email" name="Email" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="">Message</label>
+                        <textarea name="Message" id="" cols="30" rows="6" required></textarea>
+                    </div>
+                    <div class="btn">
+                        <button id="send_btn">Send Message</button>
+                    </div>
+                    
+                </form>
+                
+
+            </div>
+        </div>
+    </div>
+    <script src="index5.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+</html>

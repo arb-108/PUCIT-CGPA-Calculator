@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">PUCIT Calculator</label>
+        <ul>
+            <li><a  href="../index.html">Home</a></li>
+            <li><a href="../gpa_cal/index2.html">GPA</a></li>
+            <li><a class="active"href="">CGPA</a></li>
+            <li><a href="../about/index4.html">About</a></li>
+            <li><a href="../contact/index5.html">Contact</a></li>
+
+
+        </ul>
+    </nav>
+    <div class="container_3">
+        <div class="heading_nav">
+            <div class="logos">
+                <h2>CGPA Calculator</h2>
+            </div>
+        </div>
+        <div class="hide  " id="show_div">
+            <h2>Your CGPA is :</h2>
+            <p id="cgpa_r">3.27</p>
+        </div>
+        <form action="" class="forms" id="m_form">
+
+        
+        <div class="input_box_m" id="all_box">
+            <div class="inputs">
+                <label for="">1st Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_1" required placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_1" required placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">2nd Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_2" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_2" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">3rd Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_3" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_3" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">4th Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_4" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_4" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">5th Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_5" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_5" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">6th Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_6" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_6" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">7th Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_7" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_7" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+            <div class="inputs">
+                <label for="">8th Semester</label>
+                <div class="marks_g">
+                    <input type="number" min="0" max="4" step="0.1" name="gpa_8" placeholder="GPA">
+                    <input type="number" min="0.5" step="0.1" name="credits_8" placeholder="Total Credit Hours">
+                </div>
+                
+            </div>
+        </div>
+        <div class="hide" id="detail">
+            <!-- <p>1st Semester gpa is : 3.24</p> -->
+        </div>
+        <div class="submit_btn">
+            <button id="reset_b">Reset</button>
+            <button  id="cal_b">Calculate</button>
+        </div>
+    </form>
+    </div>
+    <script src="index3.js"></script>
+
+</body>
+</html>
